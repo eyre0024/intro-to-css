@@ -10,7 +10,7 @@ h1, h2, h3 {
     margin-bottom: 0;
 }
 
-#Scoopalicious {
+#company-name {
     font-size: 1.5rem;
 }
 
@@ -28,19 +28,40 @@ footer {
 
 
 ul, ol {
-    padding: 2em;
+    padding: 0;
     list-style: none;
 }
 
-ul ol {
+nav a  {
     color: #DEC9E9;
     text-decoration: none;
 }
 
-h2 + #intro {
+#intro + section {
     background-color: #000;
     color: #DEC9E9;
 }
+
+article > img {
+    width: 150px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    margin-top: 1em;
+
+}
+
+ol li:nth-child(even) {
+    color: #dc33dc;
+}
+
+main > img {
+    width: 100%;
+}
+
+
+
+
+
 
 
 
